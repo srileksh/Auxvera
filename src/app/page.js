@@ -1,5 +1,6 @@
 import AboutSection from "@/components/AboutSection";
 import HomeSection from "@/components/HomeSection";
+import WhyUsSection from "@/components/WhyUsSection";
 
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div>
       <HomeSection/>
       <AboutSection/>
+      <WhyUsSection/>
     </div>
   
   
