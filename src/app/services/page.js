@@ -1,8 +1,11 @@
+import ServicesSection from '@/components/ServiceSection'
 import React from 'react'
 
 function page() {
   return (
-    <div>page</div>
+    <div>
+        <ServicesSection/>
+    </div>
   )
 }
 
