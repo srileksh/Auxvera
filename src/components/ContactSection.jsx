@@ -35,28 +35,28 @@ export default function ContactSection() {
             <input
               type="text"
               placeholder="Your Name"
-              className="w-full p-3 sm:p-4 rounded-xl border border-gray-300 
+              className="w-full p-3 sm:p-4 placeholder:text-[#737482] rounded-xl border border-gray-300 
                          focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
 
             <input
               type="email"
               placeholder="Email Address"
-              className="w-full p-3 sm:p-4 rounded-xl border border-gray-300 
+              className="w-full p-3 sm:p-4 placeholder:text-[#737482] rounded-xl border border-gray-300 
                          focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
 
             <input
               type="tel"
               placeholder="Phone Number"
-              className="w-full p-3 sm:p-4 rounded-xl border border-gray-300 
+              className="w-full p-3 sm:p-4 placeholder:text-[#737482] rounded-xl border border-gray-300 
                          focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
 
             <textarea
               rows="5"
               placeholder="Your Message"
-              className="w-full p-3 sm:p-4 rounded-xl border border-gray-300 
+              className="w-full p-3 sm:p-4 placeholder:text-[#737482] rounded-xl border border-gray-300 
                          focus:outline-none focus:ring-2 focus:ring-blue-500"
             ></textarea>
 
