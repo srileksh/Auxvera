@@ -4,7 +4,7 @@ import { Target, Lightbulb } from "lucide-react";
 
 export default function AboutSection() {
   return (
-    <section className="w-full bg-gray-100 py-20 px-6">
+    <section className="w-full bg-gray-100 py-25 px-6">
       <div className="max-w-6xl mx-auto text-center">
 
         {/* Small Heading */}

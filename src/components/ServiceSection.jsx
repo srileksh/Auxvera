@@ -50,7 +50,7 @@ const services = [
 
 export default function ServicesSection() {
   return (
-    <section className="bg-gradient-to-b from-[#0f172a] to-[#0b1120] py-20 px-6">
+    <section className="bg-gradient-to-b from-[#0f172a] to-[#0b1120] py-25 px-6">
       <div className="max-w-7xl mx-auto text-center">
         {/* Heading */}
         <p className="text-cyan-400 uppercase tracking-widest text-sm mb-3">

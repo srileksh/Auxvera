@@ -5,10 +5,10 @@ import { ArrowRight } from "lucide-react";
 
 export default function HomeSection() {
   return (
-    <section className="relative w-full min-h-screen flex items-center justify-center bg-[#071a33] overflow-hidden">
+    <section className="mt-15 relative w-full min-h-screen flex items-center justify-center bg-[#071a33] overflow-hidden">
 
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#071a33] via-[#071a33] to-[#020b1a]" />
+      <div className=" absolute inset-0 bg-gradient-to-b from-[#071a33] via-[#071a33] to-[#020b1a]" />
 
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-20 bg-[url('/tech-pattern.png')] bg-cover bg-center" />
