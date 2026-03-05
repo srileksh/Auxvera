@@ -1,8 +1,11 @@
+import ContactSection from '@/components/ContactSection'
 import React from 'react'
 
 function page() {
   return (
-    <div className='bg-yellow-300 text-[100px]'>HomeSection</div>
+<>
+<ContactSection/>
+</>
   )
 }
 
