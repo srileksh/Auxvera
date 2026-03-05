@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function AboutSection() {
   return (
-    <section className="w-full bg-gray-100 
+    <section className="w-full overflow-x-hidden bg-gray-100 
                         py-14 sm:py-16 md:py-20 
                         px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto text-center">
@@ -41,7 +41,7 @@ export default function AboutSection() {
         <div className="grid 
                         grid-cols-1 
                         md:grid-cols-2 
-                        gap-6 sm:gap-8 
+                        gap-6 sm:gap-8
                         mt-10 sm:mt-14 md:mt-16">
 
           {/* Mission Card - Move from LEFT */}
@@ -57,7 +57,7 @@ export default function AboutSection() {
 
             viewport={{ once: true, amout: 0.3 }}
             className="bg-white 
-                       rounded-2xl 
+                       rounded-2xl  
                        shadow-sm 
                        p-6 sm:p-8 
                        text-left 
