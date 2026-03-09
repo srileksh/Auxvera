@@ -5,15 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function HomeSection() {
   return (
-<<<<<<< HEAD
     <section className="mt-10relative w-full min-h-screen flex items-center justify-center bg-[#071a33] overflow-hidden">
-=======
-    <section className="mt-15 relative w-full min-h-screen flex items-center justify-center bg-[#071a33] overflow-hidden">
-    <section className="relative w-full min-h-screen 
-                        flex items-center justify-center 
-                        bg-[#071a33] overflow-hidden 
-                        px-4 sm:px-6 lg:px-8">
->>>>>>> c368aed236640ba12e037704dee61ef28892aaa7
 
       {/* Background gradient */}
       <div className=" absolute inset-0 bg-gradient-to-b from-[#071a33] via-[#071a33] to-[#020b1a]" />
@@ -116,12 +108,7 @@ export default function HomeSection() {
           className="mt-10 sm:mt-12 text-gray-400 text-lg"
         >
           ↓
-<<<<<<< HEAD
         </motion.div> */} 
-=======
-        </motion.div>
-
->>>>>>> c368aed236640ba12e037704dee61ef28892aaa7
       </div>
     </section>
   );

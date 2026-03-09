@@ -5,7 +5,6 @@ import { MapPin, Send } from "lucide-react";
 
 export default function ContactSection() {
   return (
-    <section className="bg-[#f3f4f6] pb-20 px-6 py-24">
     <section className="bg-[#f3f4f6] 
                         py-14 sm:py-16 md:py-20 lg:py-24 
                         px-4 sm:px-6 lg:px-8">
