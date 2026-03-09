@@ -4,6 +4,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 
 export default function Navbar() {
@@ -69,7 +70,7 @@ export default function Navbar() {
           className="md:hidden"
           onClick={() => setIsOpen(!isOpen)}
         >
-          {isOpen ? <X size={28} /> : <Menu size={28} />}
+          {isOpen ? <X size={26} /> : <Menu size={26} />}
         </button>
       </div>
 
@@ -108,7 +109,7 @@ export default function Navbar() {
 
           </div>
         </div>
-      )}
+      </div>
     </nav>
   );
 }
