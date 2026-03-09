@@ -24,6 +24,33 @@ export default function Navbar() {
         </h1>
 
         {/* Desktop Menu */}
+        <ul
+          className="hidden md:flex items-center
+                     space-x-6 lg:space-x-10
+                     font-medium text-sm lg:text-base"
+        >
+          {navLinks.map((link) => (
+            <li key={link.path}>
+              <Link href={link.path} className={linkClasses(link.path)}>
+                {link.name}
+              </Link>
+            </li>
+          ))}
+
+        {/* Desktop Button */}
+        <div className="hidden md:block">
+          <Link
+            href="/contact"
+            className="bg-gradient-to-r from-blue-500 to-cyan-400
+                       px-4 lg:px-6 py-2
+                       text-sm lg:text-base
+                       rounded-xl font-semibold
+                       hover:opacity-90 transition"
+          >
+            Get Started
+          </Link>
+        </div>
+        </ul>
         <ul className="hidden md:flex items-center space-x-8 text-gray-300 font-medium">
           <li>
             <Link href="/" className="hover:text-white transition">
