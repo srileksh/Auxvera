@@ -99,6 +99,9 @@ export default function WhyUsSection() {
       </section>
 
       <CompanyInfo />
+
     </div>
+    </div>
+    </section>
   );
 }
