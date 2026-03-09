@@ -21,6 +21,8 @@ export default function Navbar() {
           <li><Link href="/" className="hover:text-white transition">Home</Link></li>
           <li><Link href="/about" className="hover:text-white transition">About</Link></li>
           <li><Link href="/services" className="hover:text-white transition">Services</Link></li>
+                    <li><Link href="/product" className="hover:text-white transition text-blue-500 font-bold">TRUVOH</Link></li>
+
           <li><Link href="/why-us" className="hover:text-white transition">Why Us</Link></li>
           <li><Link href="/contact" className="hover:text-white transition">Contact</Link></li>
 
@@ -51,6 +53,8 @@ export default function Navbar() {
           <Link href="/" className="block hover:text-white">Home</Link>
           <Link href="/about" className="block hover:text-white">About</Link>
           <Link href="/services" className="block hover:text-white">Services</Link>
+         <Link href="/product" className="hover:text-white transition text-blue-500 font-bold">TRUVOH</Link>
+
           <Link href="/why-us" className="block hover:text-white">Why Us</Link>
           <Link href="/contact" className="block hover:text-white">Contact</Link>
 

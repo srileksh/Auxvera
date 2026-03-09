@@ -1,19 +1,11 @@
-// import React from 'react'
 
-// function ContactSection() {
-//   return (
-//     <div>ContactSection</div>
-//   )
-// }
-
-// export default ContactSection
 "use client";
 
 import { MapPin, Send } from "lucide-react";
 
 export default function ContactSection() {
   return (
-    <section className="bg-[#f3f4f6] pb-20 px-6">
+    <section className="bg-[#f3f4f6] pb-20 px-6 py-24">
       <div className="max-w-7xl mx-auto">
 
         {/* Heading */}
