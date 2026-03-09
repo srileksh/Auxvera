@@ -40,6 +40,8 @@ export default function WhyUsSection() {
   ];
 
   return (
+    <section className="w-full bg-gray-100 py-24  ">
+      <div className="max-w-7xl mx-auto">
     <div>
       <section className="w-full bg-gray-100 py-14 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">

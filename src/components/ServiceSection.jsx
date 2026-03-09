@@ -51,6 +51,7 @@ const services = [
 
 export default function ServicesSection() {
   return (
+    <section className="bg-gradient-to-b from-[#0f172a] to-[#0b1120] py-25 px-6">
     <section className="bg-gradient-to-b from-[#0f172a] to-[#0b1120] 
                         py-14 sm:py-16 md:py-20 
                         px-4 sm:px-6 lg:px-8">
