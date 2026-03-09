@@ -62,7 +62,6 @@ export default function Navbar() {
               </Link>
             </li>
           ))}
-        </ul>
 
         {/* Desktop Button */}
         <div className="hidden md:block">
@@ -77,6 +76,7 @@ export default function Navbar() {
             Get Started
           </Link>
         </div>
+        </ul>
 
         {/* Mobile Menu Button */}
         <button
