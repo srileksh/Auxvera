@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 
 export default function AboutSection() {
   return (
+    <section className="w-full bg-gray-100 py-25 px-6">
     <section className="w-full overflow-x-hidden bg-gray-100 
                         py-14 sm:py-16 md:py-20 
                         px-4 sm:px-6 lg:px-8">
