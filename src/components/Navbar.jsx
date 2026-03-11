@@ -29,6 +29,16 @@ export default function Navbar() {
             </Link>
           </li>
 
+                    <li>
+            <Link
+              href="/truvoh"
+              className="text-blue-500 font-semibold hover:text-white transition"
+            >
+              TRUVOH
+            </Link>
+          </li>
+
+
           <li>
             <Link href="/about" className="hover:text-white transition">
               About
@@ -36,25 +46,23 @@ export default function Navbar() {
           </li>
 
           <li>
-            <Link href="/services" className="hover:text-white transition">
-              Services
+            <Link href="/whoweserve" className="hover:text-white transition">
+              Who We Serve
             </Link>
           </li>
 
+
           <li>
-            <Link
-              href="/product"
-              className="text-blue-500 font-semibold hover:text-white transition"
-            >
-              TRUVOH
+            <Link href="/whyauxvera" className="hover:text-white transition">
+              Why Auxvera
+            </Link>
+          </li>
+                    <li>
+            <Link href="/ourteam" className="hover:text-white transition">
+              Our Team
             </Link>
           </li>
 
-          <li>
-            <Link href="/why-us" className="hover:text-white transition">
-              Why Us
-            </Link>
-          </li>
 
           <li>
             <Link href="/contact" className="hover:text-white transition">
@@ -81,25 +89,36 @@ export default function Navbar() {
               Home
             </Link>
 
-            <Link href="/about" onClick={closeMenu} className="hover:text-white">
-              About
-            </Link>
-
-            <Link href="/services" onClick={closeMenu} className="hover:text-white">
-              Services
-            </Link>
-
-            <Link
-              href="/product"
+                        <Link
+              href="/truvoh"
               onClick={closeMenu}
               className="text-blue-500 font-semibold"
             >
               TRUVOH
             </Link>
 
-            <Link href="/why-us" onClick={closeMenu} className="hover:text-white">
-              Why Us
+
+            <Link href="/about" onClick={closeMenu} className="hover:text-white">
+              About
             </Link>
+
+            <Link href="/whoweserve" onClick={closeMenu} className="hover:text-white">
+              Who We Serve
+            </Link>
+
+
+            <Link href="/whyauxvera" onClick={closeMenu} className="hover:text-white">
+              Why Auxvera
+            </Link>
+
+                        <Link
+              href="/ourteam"
+              onClick={closeMenu}
+              className="text-blue-500 font-semibold"
+            >
+              TRUVOH
+            </Link>
+
 
             <Link href="/contact" onClick={closeMenu} className="hover:text-white">
               Contact
