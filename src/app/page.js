@@ -5,18 +5,16 @@ import ProductSection from "@/components/ProductSection";
 import ServicesSection from "@/components/ServiceSection";
 import WhyUsSection from "@/components/WhyUsSection";
 
-
 export default function Home() {
   return (
     <div>
-      <HomeSection/>
-      <AboutSection/>
-      <ServicesSection/>
-      <ProductSection/>
-      <WhyUsSection/>
-      <ContactSection/>
+      <HomeSection />
+      <ProductSection />
+
+      <AboutSection />
+      <ServicesSection />
+      <WhyUsSection />
+      <ContactSection />
     </div>
-  
-  
   );
 }
