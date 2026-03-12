@@ -126,7 +126,7 @@ export default function AboutSection() {
   ];
 
   return (
-    <section className="w-full py-20 bg-gradient-to-b from-white to-slate-100">
+    <section className="w-full mt-15 py-25 bg-gradient-to-b from-white to-slate-100">
       <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-start">
 
         {/* LEFT CONTENT */}
