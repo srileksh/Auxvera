@@ -17,7 +17,7 @@ export default function Navbar() {
     { name: "About", path: "/about" },
     { name: "Who We Serve", path: "/whoweserve" },
     { name: "Why Auxvera", path: "/whyauxvera" },
-    { name: "Our Team", path: "/team" },
+    { name: "Our Team", path: "/ourteam" },
     { name: "Contact", path: "/contact" },
   ];
 

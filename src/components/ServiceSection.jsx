@@ -353,10 +353,12 @@ export default function ServiceSection() {
           {services.map((item, index) => (
             <div
               key={index}
-              className="relative  border shadow-blue-900 border-blue-900 rounded-2xl p-8 text-center hover:bg-blue-950 "
+              className={`group relative text-center rounded-2xl border border-blue-900/40 bg-[linear-gradient(180deg,rgba(10,16,40,0.95),rgba(2,6,23,0.98))] p-8 shadow-[0_0_30px_rgba(37,99,235,0.18),0_18px_60px_rgba(0,0,0,0.55)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_45px_rgba(59,130,246,0.28),0_22px_70px_rgba(0,0,0,0.65)]${
+                  index === 4 ? "md:col-span-2 xl:col-span-1" : ""
+                }`} 
             >
               {/* Icon */}
-              <div className="w-14 h-14 mx-auto flex items-center justify-center bg-[#1e1b4b] rounded-xl mb-6">
+              <div className="w-14 h-14 mx-auto flex items-center justify-center bg-[#1e1b4b] rounded-xl mb-6 ">
                 {item.icon}
               </div>
 
