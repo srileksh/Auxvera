@@ -21,7 +21,7 @@ export default function TruvohSection() {
         </div>
 
         {/* Heading */}
-        <h2 className="text-center text-3xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+        <h2 className="text-center text-3xl md:text-4xl xl:text-5xl font-bold leading-tight mb-6">
           <span className="bg-gradient-to-r from-blue-400 to-indigo-500 text-transparent bg-clip-text">
             Truvoh
           </span>{" "}
@@ -45,11 +45,11 @@ export default function TruvohSection() {
             
             <div className="flex items-center gap-3">
             <div>
-            <h3 className="text-xl font-semibold mb-4">
+            <h3 className=" text-[16px] md:text-xl font-semibold mb-4">
               The Problem TRUVOH Solves
             </h3>
             </div>
-            <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-red-500/10 text-red-400 mb-6">
+            <div className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center rounded-lg bg-red-500/10 text-red-400 mb-6">
               <AlertTriangle size={24} />
             </div>
             </div>
@@ -73,11 +73,11 @@ export default function TruvohSection() {
           <div className="bg-gradient-to-br from-[#121b3a] to-[#1a2350] border border-white/10 rounded-2xl p-8 shadow-xl">
             <div className="flex items-center gap-3">
               <div>
-                <h3 className="text-xl font-semibold mb-4">
+                <h3 className="text-[18px] md:text-xl font-semibold mb-4">
                   The Truvoh Solution
                 </h3>
               </div>
-              <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-blue-500/20 text-blue-400 mb-6">
+              <div className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center rounded-lg bg-blue-500/20 text-blue-400 mb-6">
                 <LayoutGrid size={18} />
               </div>
             </div>

@@ -157,7 +157,7 @@ export default function FeaturesSection() {
 
         {/* Heading */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl xl:text-5xl font-bold mb-4">
             Key Features of <span className="text-blue-500">Truvoh</span>
           </h2>
 
@@ -204,13 +204,13 @@ export default function FeaturesSection() {
               hover:border-blue-500/40`}
             >
               <div
-                className={`w-12 h-12 flex items-center justify-center
+                className={`w-10 h-10 md:w-12 md:h-12 flex items-center justify-center
                 rounded-lg mb-6 ${feature.iconBg}`}
               >
                 {feature.icon}
               </div>
 
-              <h3 className="text-xl font-semibold mb-4">
+              <h3 className="text-[18px] md:text-xl font-semibold mb-4">
                 {feature.title}
               </h3>
 
