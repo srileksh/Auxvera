@@ -6,7 +6,6 @@ function page() {
   return (
     <div>
       <ProductSection/>
-      <TruvohFeatures/>
     </div>
 
   )
