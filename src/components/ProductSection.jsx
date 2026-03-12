@@ -104,8 +104,9 @@ export default function TruvohSection() {
             </div>
           </div>
         </div>
+            <TruvohFeatures/>
+
       </div>
-    <TruvohFeatures/>
     </section>
   );
 }

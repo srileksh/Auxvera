@@ -99,60 +99,115 @@ import {
 
 export default function FeaturesSection() {
   const bottomFeatures = [
-    {
-      icon: <ScanLine size={24} />,
-      title: "Device Registration",
-      desc: "Register devices through invoice scanning (OCR), manual entry, email import, or retailer integrations. Purchase and warranty details are automatically recorded.",
-      iconBg: "bg-blue-500/20 text-blue-400",
-      glow: "shadow-[0_15px_40px_rgba(59,130,246,0.25)]",
-    },
-    {
-      icon: <Smartphone size={24} />,
-      title: "My Devices Dashboard",
-      desc: "A centralized dashboard to view device details, warranty status, service history, stored invoices, marketplace listings, and disposal options.",
-      iconBg: "bg-indigo-500/20 text-indigo-400",
-      glow: "shadow-[0_15px_40px_rgba(99,102,241,0.25)]",
-    },
-    {
-      icon: <Wrench size={24} />,
-      title: "Smart Service Requests",
-      desc: "Connect with verified service providers — manufacturer centers, warranty providers, and local technicians. Compare price, ratings, repair time, and availability.",
-      iconBg: "bg-purple-500/20 text-purple-400",
-      color: "shadow-[0_15px_40px_rgba(168,85,247,0.25)]",
-    },
+    // {
+    //   icon: <ScanLine size={24} />,
+    //   title: "Device Registration",
+    //   desc: "Register devices through invoice scanning (OCR), manual entry, email import, or retailer integrations. Purchase and warranty details are automatically recorded.",
+    //   iconBg: "bg-blue-500/20 text-blue-400",
+    //   glow: "shadow-[0_15px_40px_rgba(59,130,246,0.25)]",
+    // },
+    // {
+    //   icon: <Smartphone size={24} />,
+    //   title: "My Devices Dashboard",
+    //   desc: "A centralized dashboard to view device details, warranty status, service history, stored invoices, marketplace listings, and disposal options.",
+    //   iconBg: "bg-indigo-500/20 text-indigo-400",
+    //   glow: "shadow-[0_15px_40px_rgba(99,102,241,0.25)]",
+    // },
+    // {
+    //   icon: <Wrench size={24} />,
+    //   title: "Smart Service Requests",
+    //   desc: "Connect with verified service providers — manufacturer centers, warranty providers, and local technicians. Compare price, ratings, repair time, and availability.",
+    //   iconBg: "bg-purple-500/20 text-purple-400",
+    //   color: "bg-pink-500/20 text-pink-400",
+    // },
 
+    // {
+    //   icon: <FileText size={24} />,
+    //   title: "Digital Wallet",
+    //   desc: "Secure storage for invoices, warranty certificates, insurance documents, and device records with automated expiry reminders.",
+    //   color: "from-pink-500/20 to-purple-500/10",
+    //   iconBg: "bg-pink-500/20 text-pink-400",
+    // },
+    // {
+    //   icon: <ShoppingBag size={24} />,
+    //   title: "Integrated Marketplace",
+    //   desc: "Sell devices directly from your inventory with ownership verification, device condition details, service history, and AI-assisted price suggestions.",
+    //   color: "from-indigo-500/20 to-blue-500/10",
+    //   iconBg: "bg-indigo-500/20 text-indigo-400",
+    // },
+    // {
+    //   icon: <BarChart3 size={24} />,
+    //   title: "AI-Powered Pricing Insights",
+    //   desc: "AI-based analytics to compare prices across retailers, track historical price trends, identify the best time to buy, and discover alternative devices within your budget.",
+    //   color: "from-cyan-500/20 to-blue-500/10",
+    //   iconBg: "bg-cyan-500/20 text-cyan-400",
+    // },
+    // {
+    //   icon: <Recycle size={24} />,
+    //   title: "Refurbishment & Disposal Network",
+    //   desc: "When devices reach the end of their lifecycle, connect with refurbishment and recycling partners to request refurbishment, sell devices, or schedule recycling pickup.",
+    //   color: "from-emerald-500/20 to-teal-500/10",
+    //   iconBg: "bg-emerald-500/20 text-emerald-400",
+    // },
     {
-      icon: <FileText size={24} />,
-      title: "Digital Wallet",
-      desc: "Secure storage for invoices, warranty certificates, insurance documents, and device records with automated expiry reminders.",
-      color: "from-pink-500/20 to-purple-500/10",
-      iconBg: "bg-pink-500/20 text-pink-400",
-    },
-    {
-      icon: <ShoppingBag size={24} />,
-      title: "Integrated Marketplace",
-      desc: "Sell devices directly from your inventory with ownership verification, device condition details, service history, and AI-assisted price suggestions.",
-      color: "from-indigo-500/20 to-blue-500/10",
-      iconBg: "bg-indigo-500/20 text-indigo-400",
-    },
-    {
-      icon: <BarChart3 size={24} />,
-      title: "AI-Powered Pricing Insights",
-      desc: "AI-based analytics to compare prices across retailers, track historical price trends, identify the best time to buy, and discover alternative devices within your budget.",
-      color: "from-cyan-500/20 to-blue-500/10",
-      iconBg: "bg-cyan-500/20 text-cyan-400",
-    },
-    {
-      icon: <Recycle size={24} />,
-      title: "Refurbishment & Disposal Network",
-      desc: "When devices reach the end of their lifecycle, connect with refurbishment and recycling partners to request refurbishment, sell devices, or schedule recycling pickup.",
-      color: "from-emerald-500/20 to-teal-500/10",
-      iconBg: "bg-emerald-500/20 text-emerald-400",
-    },
+  icon: <ScanLine size={24} />,
+  title: "Device Registration",
+  desc: "Register devices through invoice scanning (OCR), manual entry, email import, or retailer integrations. Purchase and warranty details are automatically recorded.",
+  color: "from-blue-500/20 to-purple-500/10",
+  iconBg: "bg-blue-500/20 text-blue-400",
+},
+
+{
+  icon: <Smartphone size={24} />,
+  title: "My Devices Dashboard",
+  desc: "A centralized dashboard to view device details, warranty status, service history, stored invoices, marketplace listings, and disposal options.",
+  color: "from-purple-500/20 to-blue-500/10",
+  iconBg: "bg-purple-500/20 text-purple-400",
+},
+
+{
+  icon: <Wrench size={24} />,
+  title: "Smart Service Requests",
+  desc: "Connect with verified service providers — manufacturer centers, warranty providers, and local technicians. Compare price, ratings, repair time, and availability.",
+  color: "from-indigo-500/20 to-purple-500/10",
+  iconBg: "bg-indigo-500/20 text-indigo-400",
+},
+
+{
+  icon: <FileText size={24} />,
+  title: "Digital Wallet",
+  desc: "Secure storage for invoices, warranty certificates, insurance documents, and device records with automated expiry reminders.",
+  color: "from-blue-500/20 to-indigo-500/10",
+  iconBg: "bg-blue-500/20 text-blue-400",
+},
+
+{
+  icon: <ShoppingBag size={24} />,
+  title: "Integrated Marketplace",
+  desc: "Sell devices directly from your inventory with ownership verification, device condition details, service history, and AI-assisted price suggestions.",
+  color: "from-purple-500/20 to-indigo-500/10",
+  iconBg: "bg-purple-500/20 text-purple-400",
+},
+
+{
+  icon: <BarChart3 size={24} />,
+  title: "AI-Powered Pricing Insights",
+  desc: "AI-based analytics to compare prices across retailers, track historical price trends, identify the best time to buy, and discover alternative devices within your budget.",
+  color: "from-indigo-500/20 to-blue-500/10",
+  iconBg: "bg-indigo-500/20 text-indigo-400",
+},
+
+{
+  icon: <Recycle size={24} />,
+  title: "Refurbishment & Disposal Network",
+  desc: "When devices reach the end of their lifecycle, connect with refurbishment and recycling partners to request refurbishment, sell devices, or schedule recycling pickup.",
+  color: "from-blue-500/20 to-purple-500/10",
+  iconBg: "bg-blue-500/20 text-blue-400",
+}
   ]
 
   return (
-    <section className="w-full bg-[#020617] text-white py-20 px-6">
+    <section className="w-full mt-15 bg-[#0b1124] rounded-xl text-white py-20 px-6">
       <div className="max-w-7xl mx-auto">
 
         {/* Heading */}

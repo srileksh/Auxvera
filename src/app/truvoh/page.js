@@ -6,6 +6,7 @@ function page() {
   return (
     <div>
       <ProductSection/>
+      
     </div>
 
   )

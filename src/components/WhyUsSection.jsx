@@ -243,7 +243,7 @@ const features = [
 
 export default function WhyChooseAuxvera() {
   return (
-    <section className="bg-[#eef0f6] px-6 py-20 md:px-12 lg:px-20">
+    <section className="bg-[#eef0f6] px-6 py-25 md:px-12 lg:px-20">
       <div className="mx-auto max-w-7xl">
         {/* Heading */}
         <div className="mx-auto mb-16 max-w-4xl text-center">
