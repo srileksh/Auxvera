@@ -1,137 +1,98 @@
+
 "use client";
 
-import { Target, Lightbulb } from "lucide-react";
-import { motion } from "framer-motion";
+import { Rocket, Layers, Target, Shield, Zap } from "lucide-react";
 
 export default function AboutSection() {
+  const features = [
+    {
+      icon: <Rocket size={28} />,
+      title: "Innovation-Driven",
+      desc: "Continuous exploration of emerging technologies to build future-ready platforms.",
+    },
+    {
+      icon: <Layers size={28} />,
+      title: "Scalable Architecture",
+      desc: "Systems designed to grow seamlessly with your business needs.",
+    },
+    {
+      icon: <Target size={28} />,
+      title: "Customer-Focused",
+      desc: "Solutions designed around real user needs and experiences.",
+    },
+    {
+      icon: <Shield size={28} />,
+      title: "Security First",
+      desc: "High standards for security, reliability, and performance.",
+    },
+  ];
+
   return (
-   
-    <section className="w-full overflow-x-hidden bg-gray-100 
-                        py-14 sm:py-16 md:py-20 
-                        px-4 sm:px-6 lg:px-8">
-      <div className="max-w-6xl mx-auto text-center">
+    <section className="relative bg-[#070b1a] text-white py-24 px-6">
+      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-start">
+        
+        {/* LEFT CONTENT */}
+        <div>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+            About{" "}
+            <span className="bg-gradient-to-r from-blue-400 to-indigo-500 text-transparent bg-clip-text">
+              Auxvera
+            </span>
+          </h2>
 
-        {/* Small Heading */}
-        <p className="text-blue-600 
-                      text-xs sm:text-sm 
-                      tracking-wide uppercase mb-3 sm:mb-4">
-          About Us
-        </p>
+          <p className="text-gray-400 mb-6 leading-relaxed">
+            Auxvera Technologies is a product-driven technology company focused
+            on building intelligent digital platforms that solve real-world
+            problems. Our goal is to create <span className="font-semibold text-white">AI-enabled digital ecosystems</span>  that
+            connect consumers, businesses, and service providers.
+          </p>
 
-        {/* Main Heading */}
-        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl 
-                       font-bold text-gray-900 
-                       leading-tight">
-          Building Tomorrow’s Technology,{" "}
-          <span className="text-blue-500">Today</span>
-        </h2>
+          <p className="text-gray-400 mb-10 leading-relaxed">
+            By combining product innovation, cloud technologies, and data
+            intelligence, we build platforms that transform fragmented
+            processes into connected systems. Our flagship platform Truvoh
+            reflects this vision by providing a unified lifecycle management
+            platform for electronic devices.
+          </p>
 
-        {/* Description */}
-        <p className="mt-6 sm:mt-8 
-                      text-gray-600 
-                      text-sm sm:text-base md:text-lg 
-                      max-w-xl md:max-w-2xl 
-                      mx-auto leading-relaxed">
-          AUXVERA TECHNOLOGIES PRIVATE LIMITED is a forward-thinking technology
-          company based in Kerala, India. Established in 2025, we focus on
-          delivering innovative, scalable, and reliable technology solutions
-          designed to drive business growth and digital transformation.
-        </p>
-
-        {/* Cards */}
-        <div className="grid 
-                        grid-cols-1 
-                        md:grid-cols-2 
-                        gap-6 sm:gap-8
-                        mt-10 sm:mt-14 md:mt-16">
-
-          {/* Mission Card - Move from LEFT */}
-          <motion.div
-            initial={{ x: -60, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            // transition={{ duration: 0.8, ease: "easeOut" }}
-              transition={{
-    type: "spring",
-    stiffness: 80,
-    damping: 15,
-  }}
-
-            viewport={{ once: true, amout: 0.3 }}
-            className="bg-white 
-                       rounded-2xl  
-                       shadow-sm 
-                       p-6 sm:p-8 
-                       text-left 
-                       hover:shadow-lg 
-                       transition-all duration-300"
-          >
-            <div className="w-12 h-12 sm:w-14 sm:h-14 
-                            flex items-center justify-center 
-                            rounded-xl 
-                            bg-gradient-to-r from-blue-500 to-cyan-400 
-                            text-white mb-5 sm:mb-6">
-              <Target size={24} />
+          {/* Mission */}
+          <div className="flex items-start gap-4 bg-white/5 border border-white/10 p-5 rounded-xl   transition backdrop-blur ">
+            <div className="p-3 rounded-lg bg-blue-600/20 text-blue-400">
+              <Zap size={22} />
             </div>
 
-            <h3 className="text-lg sm:text-xl 
-                           font-semibold text-gray-900 mb-3 sm:mb-4">
-              Our Mission
-            </h3>
-
-            <p className="text-gray-600 
-                          text-sm sm:text-base 
-                          leading-relaxed">
-              To empower businesses of all sizes with smart, scalable technology
-              solutions that accelerate growth and drive meaningful digital
-              transformation.
-            </p>
-          </motion.div>
-
-          {/* Vision Card - Move from RIGHT */}
-          <motion.div
-            initial={{ x: 60, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            // transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-              transition={{
-    type: "spring",
-    stiffness: 80,
-    damping: 15,
-    delay: 0.2,
-  }}
-
-            viewport={{ once: true, amount: 0.3 }}
-            className="bg-white 
-                       rounded-2xl 
-                       shadow-sm 
-                       p-6 sm:p-8 
-                       text-left 
-                       hover:shadow-lg 
-                       transition-all duration-300"
-          >
-            <div className="w-12 h-12 sm:w-14 sm:h-14 
-                            flex items-center justify-center 
-                            rounded-xl 
-                            bg-gradient-to-r from-blue-500 to-cyan-400 
-                            text-white mb-5 sm:mb-6">
-              <Lightbulb size={24} />
+            <div className="">
+              <h4 className="font-semibold text-lg mb-1">Our Mission</h4>
+              <p className="text-gray-400 text-sm">
+                To simplify device ownership and build <span className="font-semibold text-white">AI-powered </span> digital
+                infrastructure for the future of device lifecycle management.
+              </p>
             </div>
-
-            <h3 className="text-lg sm:text-xl 
-                           font-semibold text-gray-900 mb-3 sm:mb-4">
-              Our Vision
-            </h3>
-
-            <p className="text-gray-600 
-                          text-sm sm:text-base 
-                          leading-relaxed">
-              To become a leading technology partner recognized for innovation,
-              quality, and a relentless commitment to empowering businesses
-              through transformative digital solutions.
-            </p>
-          </motion.div>
-
+          </div>
         </div>
 
+        {/* RIGHT FEATURES */}
+        <div className="grid sm:grid-cols-2 gap-8">
+          {features.map((item, index) => (
+            <div
+              key={index}
+              className="relative bg-[#0b1226] border border-white/10 rounded-2xl p-8 shadow-xl hover:shadow-blue-500/20 transition"
+            >
+              {/* Glow */}
+              <div className="absolute inset-0 rounded-2xl bg-blue-600/10 blur-2xl opacity-30"></div>
+
+              <div className="relative">
+                <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-blue-600/20 text-blue-400 mb-5">
+                  {item.icon}
+                </div>
+
+                <h3 className="text-xl font-semibold mb-3">{item.title}</h3>
+
+                <p className="text-gray-400 text-sm">{item.desc}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
