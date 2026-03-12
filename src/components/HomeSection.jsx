@@ -93,7 +93,7 @@ import { motion } from "framer-motion";
 
 export default function HomeSection() {
   return (
-    <section className="relative w-full pb-20 mt-10  pt-24 min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-white via-[#eef2ff] to-[#e0e7ff]">
+    <section className="relative w-full pb-20   pt-10 min-h-screen flex items-center justify-center overflow-hidden bg-[url('/bgimg.jpeg')] bg-cover bg-center bg-no-repeat">
       
       {/* Soft Glow Background */}
       <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[900px] h-[500px] bg-gradient-to-r from-blue-300/40 to-purple-300/40 blur-[120px] rounded-full" />
@@ -115,14 +115,14 @@ export default function HomeSection() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight text-gray-900"
+          className="text-4xl md:text-4xl lg:text-5xl font-bold leading-tight text-gray-900"
         >
-          Building the Future <br />
-          of{" "}
-          <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
+          Building the Future 
+          of{" "} 
+        <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
             Device Lifecycle
           </span>{" "}
-          <br />
+          
           <span className="bg-gradient-to-r from-purple-500 to-indigo-600 bg-clip-text text-transparent">
             Management
           </span>
@@ -148,34 +148,34 @@ export default function HomeSection() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-24 text-center"
+          className="grid grid-cols-2 md:grid-cols-4  gap-1 mt-10 px-50 text-center"
         >
           <div>
-            <h3 className="text-3xl md:text-4xl font-bold text-gray-900">
+            <h3 className="text-2xl font-bold text-gray-900">
               100%
             </h3>
-            <p className="text-gray-500 mt-1 text-sm">Lifecycle Coverage</p>
+            <p className="text-gray-500  text-sm">Lifecycle Coverage</p>
           </div>
 
           <div>
-            <h3 className="text-3xl md:text-4xl font-bold text-gray-900">
+            <h3 className="text-2xl font-bold text-gray-900">
               24/7
             </h3>
-            <p className="text-gray-500 mt-1 text-sm">Platform Access</p>
+            <p className="text-gray-500  text-sm">Platform Access</p>
           </div>
 
           <div>
-            <h3 className="text-3xl md:text-4xl font-bold text-gray-900">
+            <h3 className="text-2xl font-bold text-gray-900">
               Secure
             </h3>
-            <p className="text-gray-500 mt-1 text-sm">Digital Wallet</p>
+            <p className="text-gray-500  text-sm">Digital Wallet</p>
           </div>
 
           <div>
-            <h3 className="text-3xl md:text-4xl font-bold text-gray-900">
+            <h3 className="text-2xl font-bold text-gray-900">
               Smart
             </h3>
-            <p className="text-gray-500 mt-1 text-sm">AI Insights</p>
+            <p className="text-gray-500  text-sm">AI Insights</p>
           </div>
         </motion.div>
 

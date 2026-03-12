@@ -151,13 +151,13 @@ export default function AboutSection() {
           </p>
 
           {/* Mission */}
-          <div className="flex items-start gap-4 mt-10">
+          <div className="flex items-start gap-4 mt-10 bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition">
             <div className="w-12 h-12 flex items-center justify-center bg-indigo-100 rounded-xl text-indigo-600 text-xl">
               <FaBolt />
             </div>
 
             <div>
-              <h4 className="font-semibold text-gray-900">Our Mission</h4>
+              <h4 className="font-semibold text-gray-900 ">Our Mission</h4>
               <p className="text-gray-600 text-sm mt-1">
                 To simplify device ownership and build AI-powered digital
                 infrastructure for the future of device lifecycle management.
