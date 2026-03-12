@@ -104,6 +104,7 @@ export default function TruvohSection() {
           </div>
         </div>
       </div>
+    
     </section>
   );
 }
