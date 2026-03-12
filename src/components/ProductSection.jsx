@@ -3,6 +3,7 @@
 
 import { AlertTriangle, LayoutGrid } from "lucide-react";
 import { TiSpanner } from "react-icons/ti";
+import TruvohFeatures from "./TruvohFeatures";
 
 export default function TruvohSection() {
   return (
@@ -104,7 +105,7 @@ export default function TruvohSection() {
           </div>
         </div>
       </div>
-    
+    <TruvohFeatures/>
     </section>
   );
 }
