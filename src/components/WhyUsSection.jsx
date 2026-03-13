@@ -247,7 +247,7 @@ export default function WhyChooseAuxvera() {
       <div className="mx-auto max-w-7xl">
         {/* Heading */}
         <div className="mx-auto mb-16 max-w-4xl text-center">
-          <h2 className="text-3xl md:text-4xl xl:text-5xl font-extrabold tracking-tight text-[#0b1020]">
+          <h2 className="text-3xl md:text-4xl xl:text-5xl font-bold tracking-tight text-[#0b1020]">
             Why Choose{" "}
             <span className="text-[#4b5fe2]">
               Auxvera?
