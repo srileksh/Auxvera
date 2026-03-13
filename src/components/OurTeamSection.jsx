@@ -188,61 +188,53 @@ const teamMembers = [
   {
     name: "Suraj Ajayan",
     role: "Project Manager",
-    image: "/fathima.jpeg",
+    image: "surajajayan.jpeg",
   },
   {
     name: "Lijoy Mohan",
     role: "QA Engineer",
     image:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=500&q=80",
+      "Lijoy.jpeg",
   },
   {
     name: "Lekshmi Raj G",
     role: "Digital Marketing",
-    image:
-      "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=500&q=80",
+    image:"leks.jpeg"
   },
   {
     name: "Jeffin George",
     role: "Flutter Developer",
-    image:
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=500&q=80",
+    image:"jeffin.jpeg"
   },
   {
     name: "Augnes Rose",
     role: "Flutter Developer",
-    image:
-      "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=500&q=80",
+    image:"augnesrose.jpeg"
   },
     {
     name: "Tom Sebastian",
-    role: "Frondend Developer",
-    image:
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=500&q=80",
+    role: "Frontend Developer",
+    image:"tomseb.jpeg"
   },
   {
     name: "Sreelakshmi J",
-    role: "Frondend Developer",
-    image:
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=500&q=80",
+    role: "Frontend Developer",
+    image:"sree.png"
   },
   {
     name: "Fathima F",
-    role: "Frondend Developer",
-    image:
-      "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=500&q=80",
-  },
+    role: "Front end Developer",
+    image:"fathimaf.jpeg"
+    },
     {
     name: "Aswin D Kumar",
     role: "Backend Developer",
-    image:
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=500&q=80",
+    image:"aswin.jpeg"
   },
   {
     name: "Siva Prasad",
     role: "Backend Developer",
-    image:
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=500&q=80",
+    image:"sivaprasad.jpeg"
   },
 
 
