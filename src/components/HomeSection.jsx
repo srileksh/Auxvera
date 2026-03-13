@@ -186,26 +186,113 @@
 // }
 
 
+// "use client";
+// import { motion } from "framer-motion";
+
+// export default function HomeSection() {
+//   return (
+//     <section className="relative pb-20 flex min-h-screen w-full items-center justify-center overflow-hidden bg-[url('/bgimg.jpeg')] bg-cover bg-center bg-no-repeat">
+//       {/* Black transparent overlay */}
+//       <div className="absolute inset-0 z-0 bg-black/10" />
+
+//       {/* Soft glow background */}
+//       <div className="absolute left-1/2 top-1/2 z-0 h-[500px] w-[900px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gradient-to-r from-blue-300/30 to-purple-300/30 blur-[120px]" />
+
+//       {/* Content */}
+//       <div className="relative z-10 mx-auto flex w-full max-w-6xl flex-col items-center justify-center px-6 text-center">
+//         {/* Tag */}
+//         <motion.div
+//           initial={{ opacity: 0, y: -20 }}
+//           animate={{ opacity: 1, y: 0 }}
+//           transition={{ duration: 0.6 }}
+//           className="mb-4 inline-flex items-center rounded-full border border-white/20 bg-white/10 px-4 py-1 text-sm text-gray-700 backdrop-blur"
+//         >
+//           ✦ Introducing Truvoh Platform
+//         </motion.div>
+
+//         {/* Heading */}
+//         <motion.h1
+//           initial={{ opacity: 0, y: 40 }}
+//           animate={{ opacity: 1, y: 0 }}
+//           transition={{ duration: 0.8 }}
+//           className="max-w-5xl text-4xl font-bold leading-tight text-black md:text-5xl lg:text-6xl"
+//         >
+//           Building the Future of{" "}
+//           <span className="bg-gradient-to-r from-blue-700 to-indigo-900 bg-clip-text text-transparent">
+//             Device Lifecycle
+//           </span>{" "}
+//           <span className="bg-gradient-to-r from-blue-600 to-purple-900 bg-clip-text text-transparent">
+//             Management
+//           </span>
+//         </motion.h1>
+
+//         {/* Description */}
+//         <motion.p
+//           initial={{ opacity: 0, y: 30 }}
+//           animate={{ opacity: 1, y: 0 }}
+//           transition={{ duration: 1 }}
+//           className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-gray-600 md:text-lg"
+//         >
+//           Auxvera Technologies is a technology company focused on building
+//           intelligent digital platforms that make everyday technology easier to
+//           manage. We develop{" "}
+//           <span className="font-semibold text-black">AI-powered</span> and
+//           scalable systems that help people and organizations manage devices,
+//           services, and information more efficiently.
+//         </motion.p>
+
+//         {/* Stats */}
+//         <motion.div
+//           initial={{ opacity: 0, y: -20 }}
+//           animate={{ opacity: 1, y: 0 }}
+//           transition={{ duration: 0.6 }}
+//           className=" grid w-full max-w-4xl grid-cols-2 gap-6 px-20 mt-5 text-center md:grid-cols-4"
+//         >
+//           <div>
+//             <h3 className="text-2xl font-bold text-gray-900">100%</h3>
+//             <p className="text-sm text-gray-700">Lifecycle Coverage</p>
+//           </div>
+
+//           <div>
+//             <h3 className="text-2xl font-bold text-gray-900">24/7</h3>
+//             <p className="text-sm text-gray-700">Platform Access</p>
+//           </div>
+
+//           <div>
+//             <h3 className="text-2xl font-bold text-gray-900">Secure</h3>
+//             <p className="text-sm text-gray-700">Digital Wallet</p>
+//           </div>
+
+//           <div>
+//             <h3 className="text-2xl font-bold text-gray-900">Smart</h3>
+//             <p className="text-sm text-gray-700">AI Insights</p>
+//           </div>
+//         </motion.div>
+//       </div>
+//     </section>
+//   );
+// }
+
 "use client";
 import { motion } from "framer-motion";
 
 export default function HomeSection() {
   return (
-    <section className="relative pb-20 flex min-h-screen w-full items-center justify-center overflow-hidden bg-[url('/bgimg.jpeg')] bg-cover bg-center bg-no-repeat">
+    <section className="relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-[url('/bgimg.jpeg')] bg-cover bg-center bg-no-repeat px-4 pb-16 pt-24 sm:px-6 sm:pb-20 sm:pt-28 lg:px-8">
       {/* Black transparent overlay */}
-      <div className="absolute inset-0 z-0 bg-black/10" />
+      <div className="absolute inset-0 z-0 bg-white/80 xl:bg-white/50" />
 
       {/* Soft glow background */}
-      <div className="absolute left-1/2 top-1/2 z-0 h-[500px] w-[900px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gradient-to-r from-blue-300/30 to-purple-300/30 blur-[120px]" />
+      <div className="absolute left-1/2 top-1/2 z-0 h-[280px] w-[280px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gradient-to-r from-blue-300/30 to-purple-300/30 blur-[100px] sm:h-[380px] sm:w-[520px] md:h-[450px] md:w-[700px] lg:h-[500px] lg:w-[900px]" />
 
       {/* Content */}
-      <div className="relative z-10 mx-auto flex w-full max-w-6xl flex-col items-center justify-center px-6 text-center">
+      <div className="relative z-10 mx-auto flex w-full max-w-6xl flex-col items-center justify-center text-center">
         {/* Tag */}
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="mb-4 inline-flex items-center rounded-full border border-white/20 bg-white/10 px-4 py-1 text-sm text-gray-700 backdrop-blur"
+          className="mb-4 inline-flex max-w-full items-center rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs text-gray-700 backdrop-blur sm:px-4 sm:text-sm"
         >
           ✦ Introducing Truvoh Platform
         </motion.div>
@@ -215,7 +302,7 @@ export default function HomeSection() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="max-w-5xl text-4xl font-bold leading-tight text-black md:text-5xl lg:text-6xl"
+          className="max-w-5xl  font-bold leading-tight text-black text-2xl md:text-3xl lg:text-6xl"
         >
           Building the Future of{" "}
           <span className="bg-gradient-to-r from-blue-700 to-indigo-900 bg-clip-text text-transparent">
@@ -231,7 +318,7 @@ export default function HomeSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-gray-600 md:text-lg"
+          className="mx-auto mt-5 max-w-3xl px-1 text-sm leading-relaxed text-gray-600 sm:text-base md:text-md"
         >
           Auxvera Technologies is a technology company focused on building
           intelligent digital platforms that make everyday technology easier to
@@ -246,26 +333,26 @@ export default function HomeSection() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className=" grid w-full max-w-4xl grid-cols-2 gap-6 px-20 mt-5 text-center md:grid-cols-4"
+          className="mt-6 grid w-full max-w-4xl grid-cols-2 gap-4 px-2 text-center sm:mt-8 sm:gap-6 sm:px-6 md:grid-cols-4 md:px-10 lg:px-16"
         >
           <div>
-            <h3 className="text-2xl font-bold text-gray-900">100%</h3>
-            <p className="text-sm text-gray-700">Lifecycle Coverage</p>
+            <h3 className="text-lg font-bold text-gray-900 md:text-xl">100%</h3>
+            <p className="text-xs  text-gray-900 sm:text-sm">Lifecycle Coverage</p>
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-900">24/7</h3>
-            <p className="text-sm text-gray-700">Platform Access</p>
+            <h3 className="text-lg font-bold text-gray-900 md:text-xl">24/7</h3>
+            <p className="text-xs text-gray-900 sm:text-sm">Platform Access</p>
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-900">Secure</h3>
-            <p className="text-sm text-gray-700">Digital Wallet</p>
+            <h3 className="text-lg font-bold text-gray-900 md:text-xl">Secure</h3>
+            <p className="text-xs text-gray-900 sm:text-sm">Digital Wallet</p>
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold text-gray-900">Smart</h3>
-            <p className="text-sm text-gray-700">AI Insights</p>
+            <h3 className="text-lg font-bold text-gray-900 md:text-xl">Smart</h3>
+            <p className="text-xs text-gray-900 sm:text-sm">AI Insights</p>
           </div>
         </motion.div>
       </div>
