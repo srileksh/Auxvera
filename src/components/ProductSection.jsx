@@ -7,7 +7,7 @@ import TruvohFeatures from "./TruvohFeatures";
 
 export default function TruvohSection() {
   return (
-    <section className="relative bg-[#060b1a] text-white py-24 px-6 overflow-hidden">
+    <section className="relative bg-[#0c1634] text-white py-24 px-6 overflow-hidden">
       {/* Background Glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[400px] bg-gradient-to-r from-blue-600/20 to-purple-600/20 blur-[120px]" />
 

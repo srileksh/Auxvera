@@ -135,7 +135,7 @@ export default function ContactAuxveraSection() {
           </div>
 
           {/* Heading */}
-          <h2 className="text-4xl font-extrabold tracking-tight text-[#060b1f] md:text-6xl">
+          <h2 className="text-3xl md:text-4xl xl:text-5xl font-bold tracking-tight text-[#060b1f] ">
             Contact{" "}
             <span className="text-[#4459dd]">Auxvera Technologies</span>
           </h2>
@@ -152,12 +152,12 @@ export default function ContactAuxveraSection() {
             <input
               type="email"
               placeholder="Enter your email"
-              className="h-[62px] w-full rounded-2xl border border-[#dfe3ee] bg-[#f3f4f8] px-5 text-[18px] text-[#111827] outline-none placeholder:text-[#6b7280] shadow-sm"
+              className="h-[50px] w-2/4 rounded-2xl border border-[#dfe3ee] bg-[#f3f4f8] px-5 text-[18px] text-[#111827] outline-none placeholder:text-[#6b7280] shadow-sm"
             />
 
-            <button className="flex h-[62px] min-w-[215px] items-center justify-center gap-3 rounded-2xl bg-[linear-gradient(90deg,#4459dd_0%,#5d2ecb_100%)] px-8 text-[16px] font-semibold text-white shadow-[0_16px_30px_rgba(84,74,220,0.28)] transition hover:scale-[1.02]">
-              Request Access
-              <ArrowRight className="h-5 w-5" />
+            <button className="h-[50px] flex items-center justify-center gap-3 rounded-2xl bg-[linear-gradient(90deg,#4459dd_0%,#5d2ecb_100%)] px-8 text-[16px] font-semibold text-white shadow-[0_16px_30px_rgba(84,74,220,0.28)] transition hover:scale-[1.02]">
+              <p>Request Access</p>
+              <p><ArrowRight className="h-5 w-5" /></p>
             </button>
           </div>
 
