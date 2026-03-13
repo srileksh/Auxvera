@@ -337,7 +337,7 @@ export default function ServiceSection() {
 
         {/* Heading */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-white">
+          <h2 className="text-3xl md:text-4xl xl:text-5xl font-bold text-white">
             Who We Serve
           </h2>
 
