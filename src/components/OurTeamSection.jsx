@@ -18,7 +18,7 @@ const teamMembers = [
     description:
       "Visionary leader with 15+ years of experience in technology and product development.",
     image:
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=500&q=80",
+      "/fathima.jpeg",
   },
   {
     name: "Sarah Chen",
@@ -117,7 +117,7 @@ export default function OurTeamSection() {
         </div>
 
         {/* cards */}
-        <div className="grid gap-10 md:grid-cols-2 xl:grid-cols-5 " >
+        <div className="grid gap-10 md:grid-cols-2 xl:grid-cols-5  " >
           {teamMembers.map((member, index) => (
             <div
               key={index}
@@ -130,11 +130,11 @@ export default function OurTeamSection() {
               <div className="absolute inset-0 rounded-[24px] bg-[radial-gradient(circle_at_top,rgba(59,130,246,0.12),transparent_35%)]" />
 
               <div className="relative">
-                <div className="mx-auto mb-8 h-52 w-52 overflow-hidden rounded-full border-[3px] border-[#1d2748] shadow-[0_0_0_4px_rgba(2,6,23,0.9)]">
+                <div className="mx-auto  mb-8 h-52 w-52 overflow-hidden rounded-full border-[3px] border-[#1d2748] shadow-[0_0_0_4px_rgba(2,6,23,0.9)]">
                   <img
                     src={member.image}
                     alt={member.name}
-                    className="h-full w-full object-cover"
+                    className="h-65 w-60 object-cover"
                   />
                 </div>
 
