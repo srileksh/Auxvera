@@ -25,17 +25,22 @@ export default function TruvohSection() {
           <span className="bg-gradient-to-r from-blue-400 to-indigo-500 text-transparent bg-clip-text">
             Truvoh
           </span>{" "}
-          — AI-Powered Device Lifecycle Management
+          — Smart Product Lifecycle Management Platform
         </h2>
 
         {/* Description */}
         <p className="max-w-3xl mx-auto text-center text-gray-400 text-base md:text-lg leading-relaxed mb-16">
-          Truvoh is an AI-powered platform designed to manage the complete
+          {/* Truvoh is an AI-powered platform designed to manage the complete
           lifecycle of consumer electronic devices. From the moment a device is
           purchased until it reaches the end of its life, Truvoh helps users
           manage their devices easily and intelligently. By combining
           automation, <span className="font-semibold text-white">AI insights</span>, and connected services, Truvoh replaces
-          scattered processes with one intelligent system.
+          scattered processes with one intelligent system. */}
+          Our first product Truvoh will deliver the capability to integrate segmented processes and
+systems in a single connected ecosystem to manage the product lifecycle.Truvoh simplifies
+product ownership and creates a more connected digital ecosystem.
+From the moment a product is purchased until it reaches the end of its lifecycle, the platform
+helps users organize and manage products efficiently
         </p>
 
         {/* Cards */}
@@ -62,10 +67,10 @@ export default function TruvohSection() {
 
             <ul className="space-y-3 text-gray-400 text-sm">
               <li>• Losing invoices or warranty documents</li>
-              <li>• Forgetting warranty expiry dates </li>
+              <li>• Tracking warranty expiry dates</li>
               <li>• Finding reliable repair services</li>
-              <li>• Lack of clear repair pricing</li>
-              <li>• Managing multiple devices in different places</li>
+              <li>• Lack of clear repair cost estimates</li>
+              <li>• Limited options for resale or disposal</li>
             </ul>
           </div>
 
@@ -86,15 +91,13 @@ export default function TruvohSection() {
               together.
             </p>
 
-            <div className="grid grid-cols-2 gap-4 text-sm text-gray-300">
-              <div>• Register devices</div>
-              <div>• Track warranties</div>
-              <div>• Request repairs</div>
-              <div>• Store documents</div>
-              <div>• Sell devices</div>
-              <div>• Compare prices</div>
-              <div>• Refurbish devices</div>
-              <div>• Recycle responsibly</div>
+            <div className="space-y-3 text-sm text-gray-300">
+              <div>• Store invoices and documents</div>
+              <div>• Track warranty information</div>
+              <div>• Request repairs and service</div>
+              <div>• Sell products through a marketplace</div>
+              <div>• Compare products and pricing insights</div>
+              <div>• Request for refurbishment or recycling</div>
             </div>
             <div className="bg-gradient-to-br from-[#121b3a] to-[#1a2350] border border-white/10 rounded-2xl p-5  mt-5 shadow-xl text-gray-300 flex  justify-center items-center gap-3">
               <div className="text-[20px]">
