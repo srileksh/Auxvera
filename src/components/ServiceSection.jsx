@@ -325,7 +325,7 @@ export default function ServiceSection() {
   ];
 
   return (
-    <section className="relative w-full py-35 bg-[#020617] overflow-hidden">
+    <section className="relative w-full py-40 bg-[#020617] overflow-hidden">
 
       {/* Background Glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[400px] bg-gradient-to-r from-blue-600/20 to-purple-600/20 blur-[120px] pointer-events-none"></div>
