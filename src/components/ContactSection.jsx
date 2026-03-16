@@ -126,8 +126,8 @@ import { Mail, ArrowRight } from "lucide-react";
 
 export default function ContactAuxveraSection() {
   return (
-    <section className="bg-[#eef0f6] mt-10">
-      <div className="mx-auto max-w-[1540px] rounded-[32px] border border-[#e3e5ee] bg-[linear-gradient(180deg,#f4f5fb_0%,#eef0f8_100%)] px-6 py-16 shadow-[0_30px_80px_rgba(120,130,255,0.12)] md:px-12 md:py-20 lg:px-20 lg:py-24">
+    <section className="bg-[#eef0f6] py-32 px-55">
+      <div className="mx-auto  rounded-[32px] border border-[#e3e5ee] bg-[linear-gradient(180deg,#f4f5fb_0%,#eef0f8_100%)] px-6 py-16 shadow-[0_30px_80px_rgba(120,130,255,0.12)] md:px-12 md:py-20 lg:px-20 lg:py-24">
         <div className="mx-auto max-w-4xl text-center">
           {/* Icon */}
           <div className="mx-auto mb-8 flex h-18 w-18 items-center justify-center rounded-[20px] bg-[#dcd8f3] shadow-sm">

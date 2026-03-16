@@ -242,7 +242,7 @@ const teamMembers = [
 
 export default function OurTeamSection() {
   return (
-    <section className="relative overflow-hidden bg-[#020617] px-4 sm:px-6 md:px-10 lg:px-16 py-20 text-white">
+    <section className="relative overflow-hidden bg-[#020617] px-4 sm:px-6 md:px-10 lg:px-16 py-38 text-white">
 
       {/* Heading */}
       <div className="mx-auto mb-16 max-w-4xl text-center">
