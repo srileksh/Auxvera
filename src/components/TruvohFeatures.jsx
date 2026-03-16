@@ -151,58 +151,63 @@ export default function FeaturesSection() {
     // },
     {
   icon: <ScanLine size={24} />,
-  title: "Device Registration",
-  desc: "Register devices through invoice scanning (OCR), manual entry, email import, or retailer integrations. Purchase and warranty details are automatically recorded.",
+  title: "Product Registration",
+  desc: "Products can be registered using invoice scanning with OCR, manual entry, email invoice import, or retailer system integrations. Purchase and warranty details are automatically recorded.",
   color: "from-blue-500/20 to-purple-500/10",
   iconBg: "bg-blue-500/20 text-blue-400",
 },
 
-{
-  icon: <Smartphone size={24} />,
-  title: "My Devices Dashboard",
-  desc: "A centralized dashboard to view device details, warranty status, service history, stored invoices, marketplace listings, and disposal options.",
-  color: "from-purple-500/20 to-blue-500/10",
-  iconBg: "bg-purple-500/20 text-purple-400",
-},
+// {
+//   icon: <Smartphone size={24} />,
+//   title: "My Devices Dashboard",
+//   desc: "A centralized dashboard to view device details, warranty status, service history, stored invoices, marketplace listings, and disposal options.",
+//   color: "from-purple-500/20 to-blue-500/10",
+// },
 
 {
   icon: <Wrench size={24} />,
   title: "Smart Service Requests",
-  desc: "Connect with verified service providers — manufacturer centers, warranty providers, and local technicians. Compare price, ratings, repair time, and availability.",
+  desc: "The product connects users with verified service providers such as — manufacturer centers, warranty providers, and local technicians.Users can compare providers based on price, ratings, repair time, and availability.",
   color: "from-indigo-500/20 to-purple-500/10",
-  iconBg: "bg-indigo-500/20 text-indigo-400",
+  iconBg: "bg-purple-500/20 text-purple-400",
+
 },
 
 {
   icon: <FileText size={24} />,
   title: "Digital Wallet",
-  desc: "Secure storage for invoices, warranty certificates, insurance documents, and device records with automated expiry reminders.",
+  desc: "Secure storage for invoices, warranty certificates, product-related records and the platform tracks expiry dates and sends reminders.",
   color: "from-blue-500/20 to-indigo-500/10",
-  iconBg: "bg-blue-500/20 text-blue-400",
+    iconBg: "bg-indigo-500/20 text-indigo-400",
+
 },
 
 {
   icon: <ShoppingBag size={24} />,
   title: "Integrated Marketplace",
-  desc: "Sell devices directly from your inventory with ownership verification, device condition details, service history, and AI-assisted price suggestions.",
+  desc: "Users can sell products directly from their product inventory with ownership verification, product condition, service history, and AI-assisted price suggestions.",
   color: "from-purple-500/20 to-indigo-500/10",
-  iconBg: "bg-purple-500/20 text-purple-400",
+    iconBg: "bg-blue-500/20 text-blue-400",
+
 },
 
 {
   icon: <BarChart3 size={24} />,
-  title: "AI-Powered Pricing Insights",
-  desc: "AI-based analytics to compare prices across retailers, track historical price trends, identify the best time to buy, and discover alternative devices within your budget.",
+  title: "Pricing Insights Engine",
+  desc: "Truvoh provides price intelligence that helps users compare prices across retailers, track historical price trends, identify the best time to buy, and discover alternative products within your budget.",
   color: "from-indigo-500/20 to-blue-500/10",
-  iconBg: "bg-indigo-500/20 text-indigo-400",
+    iconBg: "bg-purple-500/20 text-purple-400",
+
 },
 
 {
   icon: <Recycle size={24} />,
-  title: "Refurbishment & Disposal Network",
-  desc: "When devices reach the end of their lifecycle, connect with refurbishment and recycling partners to request refurbishment, sell devices, or schedule recycling pickup.",
+  title: "Refurb Agents & Disposal Network",
+  desc: "When products reach the end of their lifecycle, Truvoh connects users with refurbishment and recycling partners users can request refurbishment, sell products to refurbishers and schedule recycling pickup. This supports a sustainable electronics ecosystem.",
   color: "from-blue-500/20 to-purple-500/10",
-  iconBg: "bg-blue-500/20 text-blue-400",
+    iconBg: "bg-indigo-500/20 text-indigo-400",
+
+  // iconBg: "bg-blue-500/20 text-blue-400",
 }
   ]
 
@@ -217,7 +222,7 @@ export default function FeaturesSection() {
           </h2>
 
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Everything you need to manage your devices from purchase to end-of-life,
+            Everything you need to manage your products from purchase to end-of-life,
             all in one intelligent platform.
           </p>
         </div>
