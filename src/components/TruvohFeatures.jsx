@@ -67,7 +67,7 @@ export default function FeaturesSection() {
   ]
 
   return (
-    <section className="w-full mt-15 rounded-xl text-white py-20 px-6">
+    <section className="w-full mt-15 rounded-xl text-white py-20 px-0 sm:px-6">
       <div className="max-w-7xl mx-auto">
 
         {/* Heading */}
@@ -83,7 +83,7 @@ export default function FeaturesSection() {
         </div>
 
         {/* Bottom Cards */}
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3  gap-8">
           {bottomFeatures.map((feature, index) => (
             <div
               key={index}

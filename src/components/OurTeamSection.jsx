@@ -76,7 +76,7 @@ export default function OurTeamSection() {
       </div>
 
       {/* Grid */}
-      <div className="mx-auto grid max-w-7xl gap-8 md:gap-6 sm:px-[25px] sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+      <div className="mx-auto grid max-w-7xl gap-8 md:gap-6 p-5 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
 
         {teamMembers.map((member, index) => (
           <div
