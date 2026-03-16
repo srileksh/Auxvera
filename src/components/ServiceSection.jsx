@@ -300,27 +300,25 @@ export default function ServiceSection() {
   const services = [
     {
       icon: <FaUsers className="text-xl text-indigo-400" />,
-      title: "Consumers",
+      title: "Customers",
       description:
-        "People who want a simple and intelligent way to manage electronic devices, warranties, repairs, and resale.",
+        "People who want a simple way to organize electronic products, track warranties, access repairs and sell products when needed.",
     },
     {
       icon: <FaStore className="text-xl text-indigo-400" />,
       title: "Service Providers",
       description:
-        "Technicians and repair businesses looking for consistent service opportunities and better service management tools.",
+        "Technicians and repair businesses looking for consistent service opportunities and tools to manage repair workflows.",
     },
     {
       icon: <FaIndustry className="text-xl text-indigo-400" />,
       title: "Retailers & Manufacturers",
-      description:
-        "Businesses that want to improve customer experience and gain insights into device lifecycle data.",
+      description:"Businesses that want to improve customer experience after product sales and gain bettervisibility into product lifecycle data."
     },
     {
       icon: <FaRecycle className="text-xl text-indigo-400" />,
-      title: "Refurbishment & Recycling Partners",
-      description:
-        "Organizations that require structured sourcing of used electronic devices for refurbishment or recycling.",
+      title: "Refurb Agents & Recycling Partners",
+      description:"Organizations that require structured sourcing of used electronic products for refurbishment or recycling"
     },
   ];
 
