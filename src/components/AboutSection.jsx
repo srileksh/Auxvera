@@ -136,31 +136,48 @@ export default function AboutSection() {
           </h2>
 
           <p className="mt-6 text-gray-600 leading-relaxed">
-            Auxvera Technologies is a product-driven technology company focused
+            {/* Auxvera Technologies is a product-driven technology company focused
             on building intelligent digital platforms that solve real-world
             problems. Our goal is to create AI-enabled digital ecosystems that
-            connect consumers, businesses, and service providers.
+            connect consumers, businesses, and service providers. */}
+            Auxvera Technologies is a product-driven company, focused on building intelligent digital
+platforms that solve real-world problems.
+ Our goal is to create digital ecosystems that connect customers, businesses and service
+providers.
+
           </p>
 
-          <p className="mt-6 text-gray-600 leading-relaxed">
-            By combining product innovation, cloud technologies, and data
+          {/* <p className="mt-6 text-gray-600 leading-relaxed"> */}
+            {/* By combining product innovation, cloud technologies, and data
             intelligence, we build platforms that transform fragmented processes
             into connected systems. Our flagship platform Truvoh reflects this
             vision by providing a unified lifecycle management platform for
-            electronic devices.
-          </p>
+            electronic devices. */}
+            {/* Our goal is to create digital ecosystems that connect customers, businesses and service
+providers. */}
+
+          {/* </p> */}
+          {/* <p className="mt-6 text-gray-600 leading-relaxed">By combining product innovation, cloud infrastructure and data-driven insights, we build
+platforms that transform fragmented processes into connected systems.
+</p> */}
+<p className="mt-6 text-gray-600 leading-relaxed">By combining product innovation, cloud infrastructure and data-driven insights, we build
+platforms that transform fragmented processes into connected systems.Our flagship platform, Truvoh, reflects this vision by providing a unified lifecycle
+management platform for electronic products.
+</p>
+
 
           {/* Mission */}
-          <div className="flex items-start gap-4 mt-10 bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition">
+          <div className="flex items-start gap-4 mt-10 bg-white border-5 border-gray-200 p-8 rounded-2xl shadow-lg hover:shadow-xl transition">
             <div className="w-12 h-12 flex items-center justify-center bg-indigo-100 rounded-xl text-indigo-600 text-xl">
               <FaBolt />
             </div>
 
-            <div>
-              <h4 className="font-semibold text-gray-900 ">Our Mission</h4>
-              <p className="text-gray-600 text-sm mt-1">
-                To simplify device ownership and build AI-powered digital
-                infrastructure for the future of device lifecycle management.
+            <div className="">
+              <h4 className="font-semibold text-gray-900  text-xl">Our Mission</h4>
+              <p className="text-gray-600 text-md mt-2 font-semibold">
+               To simplify product ownership and build digital infrastructure that powers the future of
+product lifecycle management.
+
               </p>
             </div>
           </div>

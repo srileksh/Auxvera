@@ -211,34 +211,37 @@ import { Zap, Lightbulb, TrendingUp, Users, CheckCircle } from "lucide-react";
 const features = [
   {
     icon: Zap,
-    title: "Future-Ready Technology",
+    title: "Technology Built for the Future",
     description:
-      "Our platforms combine AI, data intelligence, and modern system architecture to support both present and future needs.",
-  },
+"Auxvera develops platforms that support both present needs and future innovation."  },
   {
     icon: Lightbulb,
     title: "Innovation-Driven Development",
     description:
-      "We continuously explore emerging technologies to build solutions that deliver long-term value.",
-  },
+"We continuously explore emerging technologies to build solutions that deliver long-term value."  },
   {
     icon: TrendingUp,
     title: "Scalable Architecture",
     description:
       "Our systems are designed to grow alongside businesses, ensuring reliability and flexibility.",
   },
+//   {
+//     icon: Users,
+//     title: "Scalable Architecture",
+//     description:
+// "Our systems are built to grow with businesses while maintaining reliability and flexibility."  },
   {
-    icon: Users,
+    icon: CheckCircle,
     title: "Customer-Focused Solutions",
     description:
-      "We work closely with partners and customers to design solutions that address real operational challenges.",
-  },
-  {
+"We work closely with partners and customers to address real-world challenges."  },
+{
     icon: CheckCircle,
     title: "Commitment to Quality",
     description:
-      "Every solution developed by Auxvera Technologies follows high standards of reliability, security, and performance.",
-  },
+"Every platform we develop follows high standards of security, reliability and performance."  },
+
+
 ];
 
 export default function WhyChooseAuxvera() {
