@@ -36,11 +36,10 @@ export default function TruvohSection() {
           manage their devices easily and intelligently. By combining
           automation, <span className="font-semibold text-white">AI insights</span>, and connected services, Truvoh replaces
           scattered processes with one intelligent system. */}
-          Our first product Truvoh will deliver the capability to integrate segmented processes and
+          Truvoh will deliver the capability to integrate segmented processes and
 systems in a single connected ecosystem to manage the product lifecycle.Truvoh simplifies
-product ownership and creates a more connected digital ecosystem.
-From the moment a product is purchased until it reaches the end of its lifecycle, the platform
-helps users organize and manage products efficiently
+product ownership and creates a more connected digital ecosystem.From the moment a product is purchased until it reaches the end of its lifecycle, the platform
+helps users organize and manage products efficiently.
         </p>
 
         {/* Cards */}

@@ -167,14 +167,14 @@ management platform for electronic products.
 
 
           {/* Mission */}
-          <div className="flex items-start gap-4 mt-10 bg-white border-5 border-gray-200 p-8 rounded-2xl shadow-lg hover:shadow-xl transition">
-            <div className="w-12 h-12 flex items-center justify-center bg-indigo-100 rounded-xl text-indigo-600 text-xl">
+          <div className="flex items-start gap-4 mt-10 bg-gradient-to-r from-blue-900 to-purple-900  text-white p-5 rounded-2xl shadow-lg hover:shadow-xl transition">
+            <div className="w-20 h-12 flex items-center justify-center bg-indigo-100 rounded-xl text-indigo-600 text-xl">
               <FaBolt />
             </div>
 
             <div className="">
-              <h4 className="font-semibold text-gray-900  text-xl">Our Mission</h4>
-              <p className="text-gray-600 text-md mt-2 font-semibold">
+              <h4 className="font-semibold text-white  text-xl">Our Mission</h4>
+              <p className="text-gray-100 text-md mt-2 ">
                To simplify product ownership and build digital infrastructure that powers the future of
 product lifecycle management.
 
