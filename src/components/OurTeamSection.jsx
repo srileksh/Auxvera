@@ -42,7 +42,7 @@ const teamMembers = [
   },
   {
     name: "Fathima F",
-    role: "Front end Developer",
+    role: "Frontend Developer",
     image:"fathimaf.jpeg"
     },
     {
