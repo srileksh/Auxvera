@@ -311,9 +311,9 @@ export default function Navbar() {
                     overflow-hidden
                   "
                 >
-                  <div className="border-b border-blue-400/15 px-4 py-2 text-center text-xs font-semibold uppercase tracking-wide text-blue-200/80">
+                  {/* <div className="border-b border-blue-400/15 px-4 py-2 text-center text-xs font-semibold uppercase tracking-wide text-blue-200/80">
                     {link.name}
-                  </div>
+                  </div> */}
 
                   <div className="flex flex-col">
                     {link.dropdown.map((item, index) => (
