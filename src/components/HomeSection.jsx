@@ -160,9 +160,9 @@ export default function HomeSection() {
           <p>
             Auxvera Technologies is a product-driven company building platforms
             that simplify real-world problems through intelligent software systems.
-          </p>
+          
 
-          <p>
+          
             Our mission is to create scalable digital ecosystems connecting
             consumers, businesses, and service providers.
           </p>
@@ -170,9 +170,9 @@ export default function HomeSection() {
           <p>
             Our flagship platform <strong>TRUVOH</strong> is a unified lifecycle
             platform for managing consumer devices from purchase to disposal.
-          </p>
+          
 
-          <p>
+          
             It includes invoice & warranty tracking, service requests, resale,
             AI-powered pricing insights, and streamlined refurbishment — all in one system.
           </p>
