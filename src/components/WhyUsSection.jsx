@@ -17,7 +17,7 @@ const features = [
     icon: TrendingUp,
     title: "Scalable Architecture",
     description:
-      "Our systems are designed to grow alongside businesses, ensuring reliability and flexibility.",
+      "Our systems are built to grow with businesses while maintaining reliability and flexibility.",
   },
   {
     icon: CheckCircle,
@@ -35,7 +35,7 @@ const features = [
 
 export default function WhyChooseAuxvera() {
   return (
-    <section className="bg-[#eef0f6] px-6 py-37 md:px-12 lg:px-20">
+    <section className="bg-[#eef0f6]  py-16 sm:py-20 md:py-32 px-12 lg:px-20">
       <div className="mx-auto max-w-7xl">
         {/* Heading */}
         <div className="mx-auto mb-16 max-w-4xl text-center">
