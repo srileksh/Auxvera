@@ -7,7 +7,7 @@ import TruvohFeatures from "./TruvohFeatures";
 
 export default function TruvohSection() {
   return (
-    <section className="relative bg-[#0c1634] text-white py-24 px-6 overflow-hidden">
+    <section className="relative bg-[#0c1634] text-white py-24 px-12 2xl-px-6 overflow-hidden">
       {/* Background Glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[400px] bg-gradient-to-r from-blue-600/20 to-purple-600/20 blur-[120px]" />
 
@@ -30,17 +30,11 @@ export default function TruvohSection() {
 
         {/* Description */}
         <p className="max-w-3xl mx-auto text-center text-gray-400 text-base md:text-lg leading-relaxed mb-16">
-          {/* Truvoh is an AI-powered platform designed to manage the complete
-          lifecycle of consumer electronic devices. From the moment a device is
-          purchased until it reaches the end of its life, Truvoh helps users
-          manage their devices easily and intelligently. By combining
-          automation, <span className="font-semibold text-white">AI insights</span>, and connected services, Truvoh replaces
-          scattered processes with one intelligent system. */}
-          Truvoh will deliver the capability to integrate segmented processes and
+Our first product Truvoh will deliver the capability to integrate segmented processes and
 systems in a single connected ecosystem to manage the product lifecycle.Truvoh simplifies
-product ownership and creates a more connected digital ecosystem.From the moment a product is purchased until it reaches the end of its lifecycle, the platform
-helps users organize and manage products efficiently.
-        </p>
+product ownership and creates a more connected digital ecosystem.
+From the moment a product is purchased until it reaches the end of its lifecycle, the platform
+helps users organize and manage products efficiently.</p>
 
         {/* Cards */}
         <div className="grid md:grid-cols-2 gap-10">
@@ -60,11 +54,11 @@ helps users organize and manage products efficiently.
 
             <p className="text-gray-400 mb-6">
               Today people own many electronic devices such as smartphones,
-              laptops, and home appliances. However, managing these devices is
+              laptops, and home appliances. Managing these devices is
               often difficult.
             </p>
 
-            <ul className="space-y-3 text-gray-400 text-sm">
+            <ul className="space-y-3 text-gray-300 text-sm">
               <li>• Losing invoices or warranty documents</li>
               <li>• Tracking warranty expiry dates</li>
               <li>• Finding reliable repair services</li>

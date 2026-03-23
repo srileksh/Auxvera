@@ -133,16 +133,17 @@ import { Mail, ArrowRight } from "lucide-react";
 
 export default function ContactAuxveraSection() {
   return (
-    <section className="bg-[#eef0f6] px-4 py-16 sm:px-6 sm:py-20 md:px-10 lg:px-16 xl:px-24">
-      <div className="mx-auto max-w-7xl rounded-[24px] border border-[#e3e5ee] bg-[linear-gradient(180deg,#f4f5fb_0%,#eef0f8_100%)] px-4 py-12 shadow-[0_30px_80px_rgba(120,130,255,0.12)] sm:rounded-[28px] sm:px-6 sm:py-14 md:px-10 md:py-16 lg:rounded-[32px] lg:px-16 lg:py-20 xl:px-20 xl:py-24">
-        <div className="mx-auto max-w-4xl text-center">
+    <section className="bg-[#0c1634]  py-16 px-12 sm:py-20 md:px-10 lg:px-16 xl:px-24 max-h-full  min-h-screen grid place-items-center">
+      {/* <div className="mx-auto max-w-7xl rounded-[24px] border border-blue-900/40 bg-[linear-gradient(180deg,rgba(10,16,40,0.95),rgba(2,6,23,0.98)) px-4 py-12 shadow-2xl sm:rounded-[28px] sm:px-6 sm:py-14 md:px-10 md:py-16 lg:rounded-[32px] lg:px-16 lg:py-20 xl:px-20 xl:py-24"> */}
+      <div className="w-full text-center">
+        <div className=" mx-auto  max-w-4xl text-center">
           {/* Icon */}
           <div className="mx-auto mb-6 flex h-14 w-14 items-center justify-center rounded-[16px] bg-[#dcd8f3] shadow-sm sm:mb-8 sm:h-16 sm:w-16 sm:rounded-[20px] md:h-[72px] md:w-[72px]">
             <Mail className="h-7 w-7 text-[#3f57d8] sm:h-8 sm:w-8 md:h-9 md:w-9" strokeWidth={2} />
           </div>
 
           {/* Heading */}
-          <h2 className="text-2xl font-bold tracking-tight text-[#060b1f] sm:text-3xl md:text-4xl xl:text-5xl">
+          <h2 className="text-2xl font-bold tracking-tight text-[#ffffff] sm:text-3xl md:text-4xl xl:text-5xl">
             Contact <span className="text-[#4459dd]">Auxvera Technologies</span>
           </h2>
 
@@ -158,7 +159,7 @@ export default function ContactAuxveraSection() {
             <input
               type="email"
               placeholder="Enter your email"
-              className="h-[50px] w-full rounded-2xl border border-[#dfe3ee] bg-[#f3f4f8] px-4 text-[15px] text-[#111827] outline-none placeholder:text-[#6b7280] shadow-sm sm:px-5 sm:text-[16px] md:h-[52px] md:flex-1"
+              className="h-[50px] w-full rounded-2xl border border-[#dfe3ee] bg-[#dcd8f3] px-4 text-[15px] text-[#111827] outline-none placeholder:text-[#6b7280] shadow-sm sm:px-5 sm:text-[16px] md:h-[52px] md:flex-1"
             />
 
             <button className="flex h-[50px] w-full items-center justify-center gap-2 rounded-2xl bg-[linear-gradient(90deg,#4459dd_0%,#5d2ecb_100%)] px-6 text-[15px] font-semibold text-white shadow-[0_16px_30px_rgba(84,74,220,0.28)] transition hover:scale-[1.02] sm:text-[16px] md:h-[52px] md:w-auto md:px-8">
@@ -169,13 +170,13 @@ export default function ContactAuxveraSection() {
 
           {/* Contact Info */}
           <div className="mt-6 space-y-2 text-sm text-[#666c7a] sm:mt-8 sm:text-[16px]">
-            <p className="break-words">
+            {/* <p className="break-words">
               Email:{" "}
               <a
                 href="mailto:contact@auxvera.com"
                 className="font-medium text-[#4459dd] hover:underline"
               >
-                contact@auxvera.com
+                info@auxvera.com
               </a>
             </p>
 
@@ -189,9 +190,10 @@ export default function ContactAuxveraSection() {
               >
                 www.auxvera.com
               </a>
-            </p>
+            </p> */}
           </div>
         </div>
+      {/* </div> */}
       </div>
     </section>
   );

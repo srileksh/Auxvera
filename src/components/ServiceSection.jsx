@@ -313,7 +313,7 @@ export default function ServiceSection() {
     {
       icon: <FaIndustry className="text-xl text-indigo-400" />,
       title: "Retailers & Manufacturers",
-      description:"Businesses that want to improve customer experience after product sales and gain bettervisibility into product lifecycle data."
+      description:"Businesses that want to improve customer experience after product sales and gain better visibility into product lifecycle data."
     },
     {
       icon: <FaRecycle className="text-xl text-indigo-400" />,
@@ -331,7 +331,7 @@ export default function ServiceSection() {
       {/* Extra Glow for depth */}
       <div className="absolute bottom-0 right-1/3 w-[700px] h-[350px] bg-purple-600/10 blur-[120px] pointer-events-none"></div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6">
+      <div className="relative z-10 max-w-7xl mx-auto px-12 2xl:px-6">
 
         {/* Heading */}
         <div className="text-center mb-16">
@@ -346,7 +346,7 @@ export default function ServiceSection() {
         </div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 xl:gap-10">
 
           {services.map((item, index) => (
             <div

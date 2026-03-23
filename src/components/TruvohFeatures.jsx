@@ -23,7 +23,7 @@ export default function FeaturesSection() {
 {
   icon: <Wrench size={24} />,
   title: "Smart Service Requests",
-  desc: "The product connects users with verified service providers such as — manufacturer centers, warranty providers, and local technicians.Users can compare providers based on price, ratings, repair time, and availability.",
+  desc: "The product connects users with verified service providers such as — manufacturer service centers, extended warranty providers, and local technicians. Users can compare providers based on price, ratings, estimated repair time, and availability.",
   color: "from-indigo-500/20 to-purple-500/10",
   iconBg: "bg-purple-500/20 text-purple-400",
 
@@ -41,7 +41,7 @@ export default function FeaturesSection() {
 {
   icon: <ShoppingBag size={24} />,
   title: "Integrated Marketplace",
-  desc: "Users can sell products directly from their product inventory with ownership verification, product condition, service history, and AI-assisted price suggestions.",
+  desc: "Users can sell products directly from their product inventory with ownership verification, product condition, service history, and AI-generated price suggestions.",
   color: "from-purple-500/20 to-indigo-500/10",
     iconBg: "bg-blue-500/20 text-blue-400",
 
@@ -50,7 +50,7 @@ export default function FeaturesSection() {
 {
   icon: <BarChart3 size={24} />,
   title: "Pricing Insights Engine",
-  desc: "Truvoh provides price intelligence that helps users compare prices across retailers, track historical price trends, identify the best time to buy, and discover alternative products within your budget.",
+  desc: "Truvoh provides price intelligence that helps users to compare prices across retailers, track historical price trends, identify the best time to buy and discover alternative products within your budget.",
   color: "from-indigo-500/20 to-blue-500/10",
     iconBg: "bg-purple-500/20 text-purple-400",
 
@@ -59,7 +59,7 @@ export default function FeaturesSection() {
 {
   icon: <Recycle size={24} />,
   title: "Refurb Agents & Disposal Network",
-  desc: "When products reach the end of their lifecycle, Truvoh connects users with refurbishment and recycling partners users can request refurbishment, sell products to refurbishers and schedule recycling pickup. This supports a sustainable electronics ecosystem.",
+  desc: "When products reach the end of their lifecycle, Truvoh connects users with refurbishment and recycling partners. Users can request refurbishment, sell products to refurbishers and schedule recycling pickup. This supports a sustainable electronics ecosystem.",
   color: "from-blue-500/20 to-purple-500/10",
     iconBg: "bg-indigo-500/20 text-indigo-400",
 
@@ -67,7 +67,7 @@ export default function FeaturesSection() {
   ]
 
   return (
-    <section className="w-full mt-15 rounded-xl text-white py-20 px-0 sm:px-6">
+    <section className="w-full mt-15 rounded-xl text-white py-20 px-3 lg:px-6">
       <div className="max-w-7xl mx-auto">
 
         {/* Heading */}
