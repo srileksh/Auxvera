@@ -14,7 +14,7 @@ export default function Home() {
       <AboutSection />
       <ServicesSection />
       <WhyUsSection />
-      {/* <OurTeamSection/> */}
+  
       <ContactSection />
     </div>
   );
