@@ -74,91 +74,136 @@
 
 
 
+// "use client";
+
+// import { Mail, ArrowRight } from "lucide-react";
+// import { BiSolidContact } from "react-icons/bi";
+// import { MdEmail } from "react-icons/md";
+
+
+// export default function ContactAuxveraSection() {
+//   return (
+//     <section className="bg-[#0c1634] 
+//     py-12 sm:py-16 md:py-20 
+//     px-4 sm:px-6 lg:px-12 xl:px-20 
+//     min-h-[80vh] flex items-center mt-10">
+
+//       <div className="w-full text-center max-w-5xl mx-auto">
+
+//         {/* Icon */}
+//         <div className="mx-auto mb-5 sm:mb-6 md:mb-8 
+//         flex h-12 w-12 sm:h-14 sm:w-14 md:h-[72px] md:w-[72px] 
+//         items-center justify-center rounded-xl sm:rounded-2xl 
+//         bg-[#dcd8f3] shadow-sm">
+//           <Mail className="h-6 w-6 sm:h-7 sm:w-7 md:h-9 md:w-9 text-[#3f57d8]" />
+//         </div>
+
+//         {/* Heading */}
+//         <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 
+//         font-bold tracking-tight text-white leading-tight px-2">
+//           Contact{" "}
+//           <span className="text-[#4459dd]">Auxvera Technologies</span>
+//         </h2>
+
+//         {/* Description */}
+//         <p className="mx-auto mt-3 sm:mt-4 md:mt-5 
+//         max-w-xl sm:max-w-2xl md:max-w-3xl 
+//         text-xs sm:text-sm md:text-base lg:text-lg 
+//         leading-relaxed text-[#9aa3b2] px-2">
+//           Interested in partnerships, integrations or early access to Truvoh?
+//           Get in touch and be among the first to experience the future of
+//           product lifecycle management.
+//         </p>
+
+//         {/* contact section */}
+//            <div className="pt-10 ">
+//             <h1 className="text-gray-300 font-semibold mb-3 sm:mb-4 text-sm sm:text-base md:text-lg">Contact Us</h1>
+//            <p className="flex gap-2  items-center justify-center text-gray-400">
+//             <h5><MdEmail /></h5> 
+//             <h5>Email: info@Auxvera.com</h5>
+//             </p>
+//             <p className="flex gap-2 items-center justify-center text-gray-400">
+//             <h5><BiSolidContact /></h5> 
+//             <h5>contact :1234567890</h5>
+//             </p>
+
+//            </div>
+
+//         {/* Optional Contact Info */}
+//         <div className="mt-5 sm:mt-6 md:mt-8 
+//         space-y-1 sm:space-y-2 
+//         text-xs sm:text-sm md:text-base 
+//         text-[#8b93a3]">
+//           {/* Example:
+//           <p>
+//             Email:{" "}
+//             <a href="mailto:info@auxvera.com" className="text-[#4459dd] hover:underline">
+//               info@auxvera.com
+//             </a>
+//           </p>
+//           */}
+//         </div>
+
+//       </div>
+//     </section>
+//   );
+// }
+
 "use client";
 
-import { Mail, ArrowRight } from "lucide-react";
+import { Mail } from "lucide-react";
+import { BiSolidContact } from "react-icons/bi";
+import { MdEmail } from "react-icons/md";
 
 export default function ContactAuxveraSection() {
   return (
-    <section className="bg-[#0c1634] 
-    py-12 sm:py-16 md:py-20 
-    px-4 sm:px-6 lg:px-12 xl:px-20 
-    min-h-[80vh] flex items-center">
-
-      <div className="w-full text-center max-w-5xl mx-auto">
+    <section
+      className="
+        min-h-screen w-full
+        bg-[#0c1634]
+        flex items-center justify-center
+        px-4 sm:px-6 lg:px-12 xl:px-20
+        py-10 sm:py-12
+      "
+    >
+      <div className="w-full max-w-3xl text-center">
 
         {/* Icon */}
-        <div className="mx-auto mb-5 sm:mb-6 md:mb-8 
-        flex h-12 w-12 sm:h-14 sm:w-14 md:h-[72px] md:w-[72px] 
-        items-center justify-center rounded-xl sm:rounded-2xl 
-        bg-[#dcd8f3] shadow-sm">
-          <Mail className="h-6 w-6 sm:h-7 sm:w-7 md:h-9 md:w-9 text-[#3f57d8]" />
+        <div className="mx-auto mb-6 sm:mb-8 flex h-14 w-14 sm:h-16 sm:w-16 items-center justify-center rounded-2xl bg-[#dcd8f3] shadow-sm">
+          <Mail className="h-7 w-7 sm:h-9 sm:w-9 text-[#3f57d8]" />
         </div>
 
         {/* Heading */}
-        <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 
-        font-bold tracking-tight text-white leading-tight px-2">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
           Contact{" "}
           <span className="text-[#4459dd]">Auxvera Technologies</span>
         </h2>
 
         {/* Description */}
-        <p className="mx-auto mt-3 sm:mt-4 md:mt-5 
-        max-w-xl sm:max-w-2xl md:max-w-3xl 
-        text-xs sm:text-sm md:text-base lg:text-lg 
-        leading-relaxed text-[#9aa3b2] px-2">
+        <p className="mt-4 sm:mt-5 text-sm sm:text-base md:text-lg text-[#9aa3b2] max-w-2xl mx-auto">
           Interested in partnerships, integrations or early access to Truvoh?
           Get in touch and be among the first to experience the future of
           product lifecycle management.
         </p>
 
-        {/* Email Form */}
-        <div className="mx-auto mt-6 sm:mt-8 md:mt-10 
-        flex flex-col md:flex-row 
-        items-stretch md:items-center justify-center 
-        gap-3 sm:gap-4 
-        w-full max-w-xl sm:max-w-2xl px-2">
+        {/* Contact Card */}
+        <div className="mt-8 sm:mt-10">
+          
+          <h3 className="text-gray-300 font-semibold mb-4 text-base sm:text-lg">
+            Contact Us
+          </h3>
 
-          <input
-            type="email"
-            placeholder="Enter your email"
-            className="h-11 sm:h-12 md:h-[52px] 
-            w-full rounded-xl sm:rounded-2xl 
-            border border-[#dfe3ee] 
-            bg-[#dcd8f3] 
-            px-3 sm:px-4 md:px-5 
-            text-sm sm:text-base text-[#111827] 
-            outline-none placeholder:text-[#6b7280] 
-            shadow-sm"
-          />
+          {/* Email */}
+          <div className="flex items-center justify-center gap-2 text-gray-400 text-sm sm:text-base mb-3">
+            <MdEmail className="text-lg" />
+            <span>Email: info@auxvera.com</span>
+          </div>
 
-          <button className="flex h-11 sm:h-12 md:h-[52px] 
-          w-full md:w-auto 
-          items-center justify-center gap-2 
-          rounded-xl sm:rounded-2xl 
-          bg-[linear-gradient(90deg,#4459dd_0%,#5d2ecb_100%)] 
-          px-5 sm:px-6 md:px-8 
-          text-sm sm:text-base font-semibold text-white 
-          shadow-[0_10px_25px_rgba(84,74,220,0.25)] 
-          transition hover:scale-[1.02]">
-            <span>Request Access</span>
-            <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5" />
-          </button>
-        </div>
-
-        {/* Optional Contact Info */}
-        <div className="mt-5 sm:mt-6 md:mt-8 
-        space-y-1 sm:space-y-2 
-        text-xs sm:text-sm md:text-base 
-        text-[#8b93a3]">
-          {/* Example:
-          <p>
-            Email:{" "}
-            <a href="mailto:info@auxvera.com" className="text-[#4459dd] hover:underline">
-              info@auxvera.com
-            </a>
-          </p>
-          */}
+          {/* Phone */}
+          <div className="flex items-center justify-center gap-2 text-gray-400 text-sm sm:text-base">
+            <BiSolidContact className="text-lg" />
+            <span>Contact: 1234567890</span>
+          </div>
         </div>
 
       </div>

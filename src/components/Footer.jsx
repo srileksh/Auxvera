@@ -130,6 +130,8 @@
 import Link from "next/link";
 import { Linkedin, Twitter, Facebook, Instagram } from "lucide-react";
 
+
+
 export default function Footer() {
   return (
     <footer className="bg-gradient-to-r from-[#0f172a] to-[#0b1120] 
@@ -144,7 +146,7 @@ export default function Footer() {
         <div className="grid 
         grid-cols-1 
         sm:grid-cols-2 
-        lg:grid-cols-4 
+        lg:grid-cols-4
         gap-6 sm:gap-8 md:gap-10 lg:gap-12">
 
           {/* Company Info */}
@@ -232,7 +234,21 @@ export default function Footer() {
                 </div>
               ))}
             </div>
+            
           </div>
+           {/* contact section
+           <div className=" ">
+            <h1 className="text-white font-semibold mb-3 sm:mb-4 text-sm sm:text-base md:text-lg">Contact Us</h1>
+           <p className="flex gap-2  items-center">
+            <h5><MdEmail /></h5> 
+            <h5>Email: info@Auxvera.com</h5>
+            </p>
+            <p className="flex gap-2 items-center">
+            <h5><BiSolidContact /></h5> 
+            <h5>contact :1234567890</h5>
+            </p>
+
+           </div> */}
         </div>
 
         {/* Divider */}
