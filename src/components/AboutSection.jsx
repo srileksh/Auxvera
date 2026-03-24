@@ -138,7 +138,7 @@ export default function AboutSection() {
   ];
 
   return (
-    <section className="w-full py-12 sm:py-16 md:py-20 lg:py-24 bg-gradient-to-b from-white to-slate-100">
+    <section className="w-full py-12 sm:py-16 md:py-20 lg:py-28 bg-gradient-to-b from-white to-slate-100">
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 grid lg:grid-cols-2 gap-10 sm:gap-12 md:gap-16 items-start">
 
