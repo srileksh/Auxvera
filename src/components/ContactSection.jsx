@@ -187,26 +187,38 @@ export default function ContactAuxveraSection() {
         </p>
 
         {/* Contact Card */}
-        <div className="mt-8 sm:mt-10">
+        <div className="mt-5">
           
-          <h3 className="text-gray-300 font-semibold mb-4 text-base sm:text-lg">
-            Contact Us
-          </h3>
-
+          
           {/* Email */}
-          <div className="flex items-center justify-center gap-2 text-gray-400 text-sm sm:text-base mb-3">
+          {/* <div className="flex items-center justify-center gap-2 text-gray-400 text-sm sm:text-base mb-3">
             <MdEmail className="text-lg" />
             <span>Email: info@auxvera.com</span>
+          </div> */}
+           <div className="mt-8 flex justify-center md:mt-10">
+            <a
+              href="mailto:info@auxvera.com"
+              className="group inline-flex flex-wrap items-center justify-center gap-3 rounded-2xl border border-white/10 bg-white/5 px-5 py-2 text-sm font-medium text-slate-200 transition-all duration-300 hover:border-[#4f6cff]/40 hover:bg-white/10 hover:text-white sm:px-6 sm:text-base"
+            >
+              <span className="flex h-8 w-8 items-center justify-center rounded-full bg-white/10 transition-colors duration-300 group-hover:bg-[#4f6cff]/20">
+                <Mail className="h-4 w-4 text-[#90a4ff]" />
+              </span>
+              <span className="break-all sm:break-normal">
+                <span className="mr-1 text-slate-400">Email:</span>
+                info@auxvera.com
+              </span>
+            </a>
           </div>
 
           {/* Phone */}
-          <div className="flex items-center justify-center gap-2 text-gray-400 text-sm sm:text-base">
+          {/* <div className="flex items-center justify-center gap-2 text-gray-400 text-sm sm:text-base">
             <BiSolidContact className="text-lg" />
             <span>Contact: 1234567890</span>
-          </div>
+          </div> */}
         </div>
 
       </div>
     </section>
   );
 }
+
