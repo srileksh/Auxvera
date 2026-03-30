@@ -161,11 +161,11 @@ export default function TruvohSection() {
                 The Problem TRUVOH Solves
               </h3>
 
-              <div className="w-9 h-9 sm:w-10 sm:h-10 md:w-12 md:h-12 
+              {/* <div className="w-9 h-9 sm:w-10 sm:h-10 md:w-12 md:h-12 
               flex items-center justify-center rounded-lg 
               bg-red-500/10 text-red-400">
                 <AlertTriangle size={20} />
-              </div>
+              </div> */}
             </div>
 
             <p className="text-gray-400 text-sm sm:text-base mb-4 sm:mb-6">
@@ -191,11 +191,11 @@ export default function TruvohSection() {
                 The Truvoh Solution
               </h3>
 
-              <div className="w-9 h-9 sm:w-10 sm:h-10 md:w-12 md:h-12 
+              {/* <div className="w-9 h-9 sm:w-10 sm:h-10 md:w-12 md:h-12 
               flex items-center justify-center rounded-lg 
               bg-blue-500/20 text-blue-400">
                 <LayoutGrid size={18} />
-              </div>
+              </div> */}
             </div>
 
             <p className="text-gray-400 text-sm sm:text-base mb-4 sm:mb-6">
