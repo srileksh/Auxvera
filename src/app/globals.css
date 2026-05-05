@@ -1,4 +1,4 @@
-@import "tailwindcss";
+/* @import "tailwindcss";
 
 :root {
   --background: #ffffff;
@@ -29,4 +29,102 @@ body {
   background-image: url('/images/bg.JPEG');
   background-size: cover;
   background-position: center;
+} */
+
+
+@import "tailwindcss";
+
+:root {
+  /* Auxvera Brand Theme */
+  --av-bg: #f6f7f9;
+  --av-bg-soft: #eef1f5;
+  --av-surface: #ffffff;
+  --av-surface-soft: #fafafa;
+
+  --av-primary: #ef3b2d;
+  --av-primary-dark: #c9281d;
+  --av-primary-soft: #ffe8e5;
+  --av-primary-med:#555555;
+
+  --av-accent: #ff6a3d;
+  --av-accent-soft: #fff0ea;
+
+  --av-dark: #0b0d10;
+  --av-dark-soft: #15181d;
+  --av-text: #111827;
+  --av-muted: #5f6673;
+  --av-muted-light: #8a93a3;
+  --av-muted-grey:#B2B2B2;
+  --av-border: #e2e5ea;
+  --av-border-dark: rgba(255, 255, 255, 0.12);
+--av-border-dark: rgba(255, 255, 255, 0.12);
+--av-light-text: #ffffff;
+  --av-gradient-primary: linear-gradient(135deg, #ef3b2d 0%, #ff6a3d 100%);
+  --av-gradient-dark: linear-gradient(135deg, #0b0d10 0%, #1b1f27 100%);
+  --av-gradient-light: linear-gradient(180deg, #ffffff 0%, #f6f7f9 100%);
+
+    --av-navbar-gradient: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.96) 0%,
+    rgba(255, 239, 234, 0.95) 50%,
+    rgba(246, 247, 249, 0.96) 100%
+  );
+
+  --av-navbar-shadow: 0 10px 30px rgba(239, 40, 50, 0.08);
+
+
+  --background: var(--av-bg);
+  --foreground: var(--av-text);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--av-bg);
+  color: var(--av-text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.HomeSection-bg {
+  background-image: url("/images/bg.JPEG");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Optional reusable classes */
+.av-container {
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.av-card {
+  background: var(--av-surface);
+  border: 1px solid var(--av-border);
+  border-radius: 1.25rem;
+  box-shadow: 0 14px 40px rgba(15, 23, 42, 0.06);
+
+}
+
+.av-brand-gradient {
+  background: var(--av-gradient-primary);
+}
+
+.av-dark-gradient {
+  background: var(--av-gradient-dark);
 }
